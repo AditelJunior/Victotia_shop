@@ -3,19 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Victoria shop</title>
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
 	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
 	<section class="section banner_block">
 		<div class="transparent_wrapper">
 			<div class="top_line container">
 			<div class="col-md-3">
-				<div class="logo  col-md-7">
+				<div class="logo nav-bar-header col-md-7">
 					<img src="imagies/logotype/logo.png"/>
 				</div>
 				<div class=""></div>
@@ -337,54 +336,63 @@
 						<a href="#" class="btn_more_link all_links">Подробнее</a>
 					</div>
 				</div>
-				<!-- <div class="owl-carousel owl-theme reviews_side"> -->
-					<div class="reviews_side item col-md-6 reviews_block_item">
-					<h2 class="capt_review">
-						Отзывы наших клиентов
-					</h2>
-				<div class="review_author_img_wrap">
-					<img src="imagies/scarlet.jpg" class="reviews_author_img">
+					<div class="reviews_side col-md-6 reviews_block_item">
+						<h2 class="capt_review">
+							Отзывы наших клиентов
+						</h2>
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="carousel_item item">
+								<div class="review_author_img_wrap">
+									<img src="imagies/scarlet.jpg" class="reviews_author_img">
+								</div>
+								<h4 class="review_author_name">
+									Скарлет Йохансон
+								</h4>
+								<div class="divider_in_review"></div>
+								<p class="reviews_text">
+									Music fan. Alcohol enthusiast. Creator. Devoted zsocial media geek. Total analyst. Coffee lover.1
+								</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="carousel_item item">
+								<div class="review_author_img_wrap">
+									<img src="imagies/scarlet.jpg" class="reviews_author_img">
+								</div>
+								<h4 class="review_author_name">
+									Скарлет Йохансон
+								</h4>
+								<div class="divider_in_review"></div>
+								<p class="reviews_text">
+									Music fan. Alcohol enthusiast. Creator. Devoted zsocial media geek. Total analyst. Coffee lover.1
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+								<div class="carousel_item item">
+								<div class="review_author_img_wrap">
+									<img src="imagies/scarlet.jpg" class="reviews_author_img">
+								</div>
+								<h4 class="review_author_name">
+									Скарлет Йохансон
+								</h4>
+								<div class="divider_in_review"></div>
+								<p class="reviews_text">
+									Music fan. Alcohol enthusiast. Creator. Devoted zsocial media geek. Total analyst. Coffee lover.1
+								</p>
+								</div>
+						</div>
+						</div>
+							<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+							<!-- Add Arrows -->
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+					</div>
 				</div>
-				<h4 class="review_author_name">
-					Скарлет Йохансон
-				</h4>
-				<div class="divider_in_review"></div>
-				<p class="reviews_text">
-					Music fan. Alcohol enthusiast. Creator. Devoted zsocial media geek. Total analyst. Coffee lover.1
-				</p>
-			</div>
-							<!-- 	<div class="reviews_side item col-md-6 reviews_block_item">
-									<h2 class="capt_review">
-										Отзывы наших клиентов
-									</h2>
-									<div class="review_author_img_wrap">
-										<img src="imagies/scarlet.jpg" class="reviews_author_img">
-									</div>
-									<h4 class="review_author_name">
-										Скарлет Йохансон
-									</h4>
-									<div class="divider_in_review"></div>
-									<p class="reviews_text">
-										Music fan. Alcohol enthusiast. Creator. Devoted social media geek. Total analyst. Coffee lover.2
-									</p>
-								</div>
-								<div class="reviews_side item col-md-6 reviews_block_item">
-									<h2 class="capt_review">
-										Отзывы наших клиентов
-									</h2>
-									<div class="review_author_img_wrap">
-										<img src="imagies/scarlet.jpg" class="reviews_author_img">
-									</div>
-									<h4 class="review_author_name">
-										Скарлет Йохансон
-									</h4>
-									<div class="divider_in_review"></div>
-									<p class="reviews_text">
-										Music fan. Alcohol enthusiast. Creator. Devoted social media geek. Total analyst. Coffee lover.3
-									</p>
-								</div>
-								</div>
- -->
 			</div>
 		</div>
 	</section>
@@ -428,20 +436,105 @@
 	</section>
 	<section class="section registration_block">
 		<div class="container registration_container">
-			<img src="imagies/pink-rose.png" alt="">
-			<div>
+			<img src="imagies/pink-rose.png" class="img_pink_rose">
+			<div class="col-md-6 col-md-push-1">
 				<h1 class="capt_register">
-					Будь в курсе событий
+					Будь в курсе новинок
 				</h1>
 				<p class="text_register">
 					Каждый месяц вы будете получать выгодные предложение от нашей компании
 				</p>
 			</div>
-			<input type="text" class="input_email" placeholder="Введите E-mail">
+			<input type="text" class="input_email col-md-4 col-md-push-2" placeholder="Введите E-mail">
+		</div>
+	</section>
+	<section class="section footer_block">
+		<div class="container footer_container">
+			<div class="col-md-8 col-md-push-2">
+				<div class="col-md-4 advantages">
+					<div class="col-md-4">
+						<div class="footer_icon">
+							<img src="imagies/icons/truck-icon.png">
+						</div>
+					</div>
+					<div class="col-md-8">
+						Бесплатная доставка по Кыргызстану
+					</div>
+				</div>
+				<div class="col-md-4 advantages">
+					<div class="col-md-4">
+						<div class="footer_icon">
+							<img src="imagies/icons/percentages-icon.png">
+							</div>
+						</div>
+					<div class="col-md-8">
+						Постоянным клиентам скидки
+					</div>
+				</div>
+				<div class="col-md-4 advantages">
+					<div class="col-md-4">
+						<div class="footer_icon">
+							<img src="imagies/icons/time-icon.png">
+						</div>
+					</div>
+					<div class="col-md-8">
+						Гарантия доставки в срок
+					</div>
+				</div>
+			</div>
+
+
+			<div class="container">
+				<div class="col-md-6 col-md-push-3 row social_networks ">
+					<div class="social_item col-md-4">
+						<a href="#" class="social_wrap all_links">
+							<span class="fa fa-instagram"></span>
+						</a>
+						<span class="social_net_name">
+							Instagram
+						</span>
+					</div>
+					<div class="social_item col-md-4">
+						<a href="#" class="social_wrap all_links">
+							<span class="fa fa-facebook"></span>
+						</a>
+						<span class="social_net_name">
+							Facebook
+						</span>
+					</div>
+					<div class="social_item col-md-4">
+						<a href="#" class="social_wrap all_links">
+							<span class="fa fa-vk"></span>
+						</a>
+						<span class="social_net_name">
+							Vkontakte
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="navigation">
+				<ul class="nav-bar col-md-6 col-md-push-3">
+					<li class="nav_item">
+						<a href="#" class="nav_link footer_nav_link">Каталог</a>
+					</li>
+					<li class="nav_item">
+						<a href="#" class="nav_link footer_nav_link">Оплата и доставка</a>
+					</li>
+					<li class="nav_item">
+						<a href="#" class="nav_link footer_nav_link">Отзывы</a>
+					</li>
+					<li class="nav_item">
+						<a href="#" class="nav_link footer_nav_link">Новости</a>
+					</li>
+					<li class="nav_item">
+						<a href="#" class="nav_link footer_nav_link">контакты</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</section>
 	<script src="js/jquery-3.3.1.min.js"/>
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/swiper.min.js"></script>
 	<script src="js/bootstrap.min.js"/>
 	<script src="js/script.js"></script>
 </body>

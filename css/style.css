@@ -329,6 +329,30 @@ html, body {
   margin-top: 10px;
   font-style: italic; }
 
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
 .actions_container {
   padding: 50px; }
 
@@ -363,3 +387,82 @@ html, body {
 .action_btn_read {
   color: #EC002C;
   font-family: "Roboto-Bold"; }
+
+.registration_block {
+  background: #4B1520;
+  position: relative; }
+
+.registration_container {
+  vertical-align: middle;
+  padding: 50px; }
+
+.img_pink_rose {
+  position: absolute;
+  width: 200px;
+  left: 0;
+  top: -75px;
+  z-index: 1; }
+
+.capt_register {
+  font-family: "Roboto-Bold";
+  color: white;
+  z-index: 5; }
+
+.text_register {
+  color: #A1848A; }
+
+.input_email {
+  height: 50px;
+  margin-top: 34px;
+  background: #63333D;
+  border: #815B62;
+  color: white; }
+
+.footer_container {
+  padding: 50px 0; }
+
+.footer_icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  background: #EC002C; }
+
+.advantages {
+  border-right: 2px solid #a8a8a8; }
+
+.social_item {
+  display: inline-block; }
+
+.social_networks {
+  display: block;
+  margin-top: 50px;
+  padding: 0 70px 50px 70px;
+  border-bottom: 1px solid #a8a8a8; }
+
+.social_wrap {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #EC002C;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 2rem; }
+
+.social_net_name {
+  color: #595959; }
+
+.navigation {
+  margin-top: 30px; }
+
+.footer_nav_link {
+  color: black;
+  font-size: 1.4rem; }
+.footer_nav_link:hover {
+  text-decoration: none; }
+.footer_nav_link:active {
+  text-decoration: none; }
