@@ -21,7 +21,6 @@ html, body {
   font-weight: normal;
   font-style: normal; }
 .container {
-  width: 1170px;
   margin: 0 auto;
   box-sizing: border-box; }
 
@@ -50,42 +49,43 @@ html, body {
 .uk_flag {
   margin-right: 10px; }
 
-.language {
-  display: inline-block;
-  color: white; }
-
-.nav_item {
-  display: inline-block;
-  font-family: "Roboto-Bold"; }
-
-.nav_link {
-  text-decoration: none;
-  padding: 10px 10px;
-  color: white;
-  text-transform: uppercase;
-  font-size: 1rem; }
-
-.phone_numder {
-  display: inline-block; }
-
-.number {
-  color: white;
-  font-size: 1rem; }
-
-.btn_feedbak {
-  display: inline-block; }
+.btn_feedback {
+  margin-left: 20px; }
+.btn_feedback a {
+  border: 1px solid #EC002C; }
 
 .feedback_link {
   color: white;
   padding: 10px 20px;
   border: 1px solid #EC002C; }
 
+.navbar {
+  padding: 30px 0; }
+
+.navbar-toggle {
+  color: white; }
+
+.navbar-inverse {
+  background: rgba(0, 0, 0, 0.7); }
+
+.nav_top a {
+  color: white !important; }
+
+@media screen and (min-width: 768px) {
+  .language {
+    display: none; }
+
+  .number {
+    display: none; }
+
+  .dividing_line {
+    display: none; } }
 .banner_block {
   background: url("../imagies/bg-img.jpg");
-  padding: 0;
+  padding-top: 150px;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 670px; }
+  height: 100vh; }
 
 .banner_info {
   color: white; }
@@ -154,7 +154,7 @@ html, body {
   text-align: center; }
 
 .season_clothes_container {
-  width: 1349px;
+  width: 100%;
   padding: 0;
   margin: 0 auto; }
 
@@ -285,6 +285,10 @@ html, body {
 .about_company {
   border-right: 2px solid #A8A8A8; }
 
+.swiper-container {
+  width: 600px;
+  height: 300px; }
+
 .reviews_side {
   text-align: center; }
 
@@ -324,6 +328,9 @@ html, body {
 
 .review_author_name {
   font-family: "Roboto-Bold"; }
+
+.reviews_item {
+  background: #FFF0F3; }
 
 .reviews_text {
   margin-top: 10px;
@@ -432,6 +439,8 @@ html, body {
 
 .advantages {
   border-right: 2px solid #a8a8a8; }
+.advantages:last-child {
+  border-right: 0; }
 
 .social_item {
   display: inline-block; }
@@ -460,9 +469,17 @@ html, body {
   margin-top: 30px; }
 
 .footer_nav_link {
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 1rem;
   color: black;
   font-size: 1.4rem; }
 .footer_nav_link:hover {
   text-decoration: none; }
 .footer_nav_link:active {
   text-decoration: none; }
+
+.nav_item {
+  display: inline-block;
+  font-family: "Roboto-Bold"; }

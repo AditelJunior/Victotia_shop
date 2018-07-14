@@ -1,0 +1,8 @@
+.navbar-header {
+	display: flex;
+	height: auto;
+	height: 80px;
+}
+.nav_top {
+	line-height: 74px;
+}
